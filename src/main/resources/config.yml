@@ -1,0 +1,5 @@
+# Dificultad de todos los mundos según el estado de la palanca vinculada.
+# Valores: PEACEFUL, EASY, NORMAL, HARD
+difficulty:
+  powered: HARD
+  unpowered: NORMAL

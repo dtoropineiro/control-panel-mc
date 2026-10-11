@@ -1,0 +1,17 @@
+# Descriptor del plugin: https://docs.papermc.io/paper/dev/plugin-yml
+# Gradle rellena "version" y "api-version" al compilar (ver build.gradle.kts).
+name: control-panel
+version: '${version}'
+main: com.dario.controlpanel.ControlPanel
+api-version: '${apiVersion}'
+description: Un plugin de Paper
+author: "Darío"
+# website: https://...
+# depend: [OtroPlugin]
+# softdepend: [OtroPlugin]
+
+# Los comandos se registran con Brigadier en ControlPanel, no en una sección commands:.
+permissions:
+  leverctl.admin:
+    description: Manage lever bindings
+    default: op
